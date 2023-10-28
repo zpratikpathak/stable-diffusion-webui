@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/cuda:latest",
+  "image": "mcr.microsoft.com/vscode/devcontainers/cuda:latest",
   "extensions": ["ms-python.python"]
   
 }
