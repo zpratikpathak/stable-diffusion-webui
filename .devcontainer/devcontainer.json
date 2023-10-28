@@ -1,5 +1,8 @@
 {
-  "image": "mcr.microsoft.com/vscode/devcontainers/cuda:latest",
-  "extensions": ["ms-python.python"]
-  
+"image": "mcr.microsoft.com/devcontainers/universal:2",
+"features": {
+"ghcr.io/devcontainers/features/nvidia-cuda:1": {
+"installCudnn": true
+}
+}
 }
